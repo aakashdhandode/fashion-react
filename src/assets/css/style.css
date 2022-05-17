@@ -576,3 +576,6 @@ ul.breadcrumb li + li:before {
   color: black;
   content: "/\00a0";
 }
+.product-details-img img{
+  width: 100%;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 
@@ -13,12 +13,12 @@ function Details() {
     autoplay: true,
     speed: 3000,
     slidesToShow: 1,
-    slidesToScroll: 2
+    slidesToScroll: 1,
   };
   return (
     <div className="mtb-5">
       <Container>
-        <ul class="breadcrumb">
+        <ul className="breadcrumb">
           <li>
             <a href="/">Home</a>
           </li>
@@ -27,22 +27,33 @@ function Details() {
           </li>
           <li>Product Name</li>
         </ul>
-        <Row>
+        <Row className="product-details-img">
           <Col sm={6}>
             <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)}>
               <div>
-                  <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
-          
             </Slider>
             <Slider
-            {...small}
+              {...small}
               asNavFor={nav1}
               ref={(slider2) => setNav2(slider2)}
               slidesToShow={3}
@@ -50,22 +61,46 @@ function Details() {
               focusOnSelect={true}
             >
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
               <div>
-              <img src="http://127.0.0.1:8000/images/5.png" />
+                <Image
+                  src={require("../assets/images/product-img/5.png")}
+                  className="img-responsive"
+                  alt="product image"
+                />
               </div>
             </Slider>
           </Col>

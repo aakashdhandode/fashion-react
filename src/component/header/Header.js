@@ -3,6 +3,7 @@ import './header.css'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import { BiZoomIn } from 'react-icons/bi';
 import MegaMenu from './MegaMenu';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -11,7 +12,7 @@ export default function Header() {
         <Container>
             <Row>
                 <Col sm={3}>
-                   <Image src={require('../../assets/images/logo.png')} className="logo"/>
+                    <Link to="/"> <Image src={require('../../assets/images/logo.png')} className="logo"/></Link>
                 </Col>
                 <Col sm={5}>
                     <Row>
