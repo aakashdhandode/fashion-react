@@ -576,6 +576,131 @@ ul.breadcrumb li + li:before {
   color: black;
   content: "/\00a0";
 }
+
+/* product details css */
 .product-details-img img{
   width: 100%;
+}
+.product-details-img .slick-slider img{
+  padding: 0 5px;
+}
+.product-info h4 {
+  font-size: 14px;
+  color: #27231F;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+.product-info h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-bottom: 0px;
+}
+.product-info .checked{
+  color: orange;
+  font-size: 14px;
+  padding: 0 3px 0px 0px;
+}
+.product-info-price {
+  margin-top: 10px;
+}
+.product-info-price h5 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #27231F;
+}
+.product-info-price h5 del {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 4px;
+}
+.product-info-price h5 span {
+  color: #A42A49;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 4px;
+}
+.product-info-price h6 {
+  color: #A42A49;
+  font-weight: 500;
+}
+.product-info-size {
+  margin-top: 20px;
+}
+.product-info-size h5 {
+  font-size: 16px;
+  color: #27231F;
+  font-weight: 500;
+  letter-spacing: normal;
+  padding-bottom: 0px;
+}
+.btn-size-active {
+  background: #A42A49 !important;
+  color: #fff !important;
+}
+.size-btn {
+  padding: 6px 25px;
+  background: #EFEFEF;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: #C1C1C1;
+  transform: all 0.3s;
+  margin-bottom: 10px;
+  border: none;
+}
+.product-info-size a {
+  color: #A42A49;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.product-info-size .form-control {
+  width: 300px;
+  background: #EFEFEF;
+  border: none;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.product-listing .form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  color: #A42A49;
+  font-weight: 500;
+  box-shadow: none;
+}
+.product-info-size ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.product-info-size ul li{
+  font-weight: 500;
+  font-size: 14px;
+}
+.btn-cart {
+  background: #A42A49;
+  height: 45px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: none;
+  margin-right: 9px;
+  font-weight: 500;
+  transition: all 0.3s;
+  padding: 10px 35px;
+  border-radius: 7px;
+}
+.btn-wishlist {
+  background: #fff;
+  border: 1px solid #A42A49;
+  color: #A42A49;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.3s;
+  padding: 10px 35px;
+  border-radius: 7px;
 }
