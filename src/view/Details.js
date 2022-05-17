@@ -13,7 +13,7 @@ function Details() {
     autoplay: true,
     speed: 3000,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 2
   };
   return (
     <div className="mtb-5">
