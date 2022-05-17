@@ -1,0 +1,56 @@
+@media only screen and (max-width: 420px) {
+  .figure img {
+    height: 200px;
+}
+.testimonial-section .carousel-inner {
+  padding: 0 30px;
+}
+.bg--redon {
+  padding: 29px 0;
+}
+.space-mb--25 {
+  margin-bottom: 14px;
+}
+.offers-card img {
+  height: 175px;
+}
+.banner-img img {
+  height: 240px;
+}
+.trending-img {
+  margin-top: 20px;
+}
+.trending-img img {
+  max-width: 62%;}
+.offers-title-price h4 {
+  font-size: 19px;
+}
+.offers-title-price p {
+  font-size: 27px;
+  padding: 3px 0 14px;
+}
+.offers-card-bg {
+  padding: 2px;
+  border-radius: 1px;
+}
+.offers-title-price {
+  padding: 0px 0 3px 0;
+}
+.icon-box--style1 {
+  padding: 0px 55px;
+}
+.bg--blue-two {
+  text-align: center;
+  padding-top: 33px;
+}
+.footer-top {
+  padding: 25px 0 0px;
+}   
+footer .widget-title {
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+.widget-links li {
+  padding-bottom: 3px;
+}
+}
