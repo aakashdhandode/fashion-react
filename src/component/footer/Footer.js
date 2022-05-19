@@ -51,7 +51,7 @@ export const Footer = () => {
                         <div className="widget">
                            <h6 className="widget-title">Useful Links</h6>
                            <ul className="widget-links">
-                              <li><a href="/">About Us</a></li>
+                              <li><Link to="/about">About Us</Link></li>
                               <li><a href="/">FAQ</a></li>
                               <li><a href="/">Location</a></li>
                               <li><a href="/">Affiliates</a></li>

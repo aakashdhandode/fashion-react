@@ -1047,15 +1047,52 @@ ul.breadcrumb li + li:before {
   /* text-align: end; */
   float: right;
 }
-/* .my-orders table tr td {
-  color: #27231F;
+.divider {
+  height: 1px;
+  background: #C4C4C4;
+  margin-top: 15px;
+}
+.login-head .modal-header{
+  border: none!important;
+  padding: 0;
+}
+.login-head h5{
+  text-align: center;
+  font-size: 27px;
   font-weight: 500;
-  font-size: 15px;
-  vertical-align: middle;
+  margin-top: 0px;
 }
-.w-95 {
-  width: 90%;
+.login-btn{
+  width: 100%;
+  background: #a42a49!important;
+  border: none;
 }
-.pl-10 {
-  padding-left: 10px;
-} */
+.login-head .modal-header .btn-close {
+  border: 1px solid #a42a49;
+  opacity: 1;
+}
+
+/* about */
+.about-banner{
+  background: url(../images/baner.png);
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+  padding: 72px 0;
+}
+.about-banner .breadcrumb{
+  background: none;
+  display: block!important;
+}
+.about-banner {
+  color: white;
+}
+.about-banner .breadcrumb a{
+  color: white;
+}

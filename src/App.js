@@ -4,12 +4,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MyAccount from "./component/account/MyAccount";
 import MyAddress from "./component/account/MyAddress";
 import MyOrders from "./component/account/MyOrders";
+import OrderSummery from "./component/account/OrderSummery";
 import CartList from "./component/cart/CartList";
 import Delivery from "./component/cart/Delivery";
 import { Footer } from "./component/footer/Footer";
 import Header from "./component/header/Header";
 import Details from "./view/Details";
 import Home from "./view/Home";
+import About from "./view/pages/About";
 import Products from "./view/Products";
 import WishList from "./view/WishList";
 class App extends Component {
@@ -28,6 +30,10 @@ class App extends Component {
               <Route exact path="/myaccount"component ={MyAccount} />
               <Route exact path="/myorders"component ={MyOrders} />
               <Route exact path="/myaddress"component ={MyAddress} />
+              <Route exact path="/ordersummery"component ={OrderSummery} />
+
+              <Route exact path="/about"component ={About} />
+
             </Switch>
             <Footer />
           </div>
