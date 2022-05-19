@@ -6,7 +6,7 @@
     font-size: 14px;
     font-weight: 300;
     height: 40px;
-    border: 1px solid #e94560;
+    border: 1px solid #a42a49;
     box-shadow: none;
     border-radius: 5px 0px 0px 5px;
 }
@@ -14,7 +14,7 @@
     height: 40px;
     border-radius: 0px 5px 5px 0px!important;
     color: #ffffff!important;
-    background: #e94560!important;
+    background: #a42a49!important;
 }
 .header-search {
     padding: 16px 0px 0px 0px!important;
@@ -104,7 +104,7 @@
     -webkit-border-radius: 0px;
     -o-border-radius: 0px;
     border-radius: 0px;
-    background-color: #e94560;;
+    background-color: #a42a49;;
     border: none;
     /* border-bottom: solid 1px #e0e0e0; */
     z-index: 9;

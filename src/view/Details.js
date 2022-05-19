@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
+import ProductsCard from "../component/product/ProductsCard";
 
 function Details() {
   const [nav1, setNav1] = useState();
@@ -164,6 +165,100 @@ function Details() {
             </div>
           </Col>
         </Row>
+        <Row sm={12} className="mt-4">
+          <h5>Product Details</h5>
+          <div className="product-info-size">
+            <ul>
+              <li>100% Original Products</li>
+              <li>Free Delivery on order above Rs. 799</li>
+              <li>Pay on delivery might be available</li>
+              <li>Easy 30 days returns and exchanges</li>
+              <li>Try &amp; Buy might be available</li>
+            </ul>
+          </div>
+        </Row>
+        <div className="border-top-d mt-30 pt-50"></div>
+        <section className="similar-pro">
+          <h5>SIMILAR PICKS</h5>
+          <Row>
+            <div className="col-md-3">
+              <ProductsCard />
+            </div>
+            <div className="col-md-3">
+              <ProductsCard />
+            </div>
+            <div className="col-md-3">
+              <ProductsCard />
+            </div>
+            <div className="col-md-3">
+              <ProductsCard />
+            </div>
+          </Row>
+        </section>
+        <div className="border-top-d mt-30 pt-50"></div>
+        <section className="product-review">
+          <h5>CUSTOMERS REVIEWS</h5>
+          <h4>5.0</h4>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+        </section>
+
+        <section>
+          <div className="testimonial-card">
+            <div className="user-thumb">
+              <img
+                src="http://127.0.0.1:8000/images/users/1.jpg"
+                className="img-responsive"
+                alt="Irish Deer"
+              />
+            </div>
+            <div className="user-info">
+              <h5>Sumaiya Karim</h5>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <div className="clearfix"></div>
+              <h4>Very Good</h4>
+              <p>
+                Love it! Really good, looking forwars to more shopping from
+                Kalki Fashion.
+              </p>
+            </div>
+            <div className="clearfix"></div>
+          </div>
+        </section>
+
+        <section>
+          <div className="testimonial-card">
+            <div className="user-thumb">
+              <img
+                src="http://127.0.0.1:8000/images/users/1.jpg"
+                className="img-responsive"
+                alt="Irish Deer"
+              />
+            </div>
+            <div className="user-info">
+              <h5>Sumaiya Karim</h5>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <span className="fa fa-star checked"></span>
+              <div className="clearfix"></div>
+              <h4>Very Good</h4>
+              <p>
+                Love it! Really good, looking forwars to more shopping from
+                Kalki Fashion.
+              </p>
+            </div>
+            <div className="clearfix"></div>
+          </div>
+        </section>
       </Container>
     </div>
   );

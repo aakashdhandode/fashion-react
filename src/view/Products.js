@@ -9,10 +9,14 @@ function Products() {
     <div className="mtb-5">
       <Container>
         <div className="page-links mb-5">
-        <ul class="breadcrumb">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/products">Women</a></li>
-                    </ul>
+          <ul className="breadcrumb">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/products">Women</Link>
+            </li>
+          </ul>
         </div>
 
         {/* Side Filter section */}
@@ -43,9 +47,8 @@ function Products() {
                 </form>
               </Col>
               <Col sm={6}>
-                <ul class="pagination pagination-sm pull-right">
+                <ul className="pagination pagination-sm pull-right">
                   <li>1-27 items of 450</li>
-               
                 </ul>
               </Col>
             </Row>
