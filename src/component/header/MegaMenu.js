@@ -73,32 +73,32 @@ const MegaMenu = () => {
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link eventKey="aboutus" as={Link} to="/about">
+                <Nav.Link eventKey="produts" as={Link} to="/products">
                Women
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="aboutus" as={Link} to="/about">
+                <Nav.Link eventKey="product" as={Link} to="/products">
                 Kids
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="aboutus" as={Link} to="/about">
+                <Nav.Link eventKey="" as={Link} to="/">
                 Bridal
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="aboutus" as={Link} to="/about">
+                <Nav.Link eventKey="" as={Link} to="/">
                Accessories
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="aboutus" as={Link} to="/about">
+                <Nav.Link eventKey="" as={Link} to="/">
               Collection
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="aboutus" as={Link} to="/about">
+                <Nav.Link eventKey="" as={Link} to="/">
                Celebrity
                 </Nav.Link>
               </Nav.Item>

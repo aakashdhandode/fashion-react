@@ -70,7 +70,7 @@ export default function Header() {
                             <ul>
                                 <li><Link to="/myaccount">My Account</Link></li>
                                 <li><Link to="/myorders">My Orders</Link></li>
-                                <li><Link to="/address">My Addresses</Link></li>
+                                <li><Link to="/myaddress">My Addresses</Link></li>
                                 <li><Link to="/">Logout</Link></li>
                             </ul>
                         </Dropdown.Menu>

@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MyAccount from "./component/account/MyAccount";
+import MyAddress from "./component/account/MyAddress";
 import MyOrders from "./component/account/MyOrders";
 import CartList from "./component/cart/CartList";
 import Delivery from "./component/cart/Delivery";
@@ -26,6 +27,7 @@ class App extends Component {
               <Route exact path="/rdelivey"component ={Delivery} />
               <Route exact path="/myaccount"component ={MyAccount} />
               <Route exact path="/myorders"component ={MyOrders} />
+              <Route exact path="/myaddress"component ={MyAddress} />
             </Switch>
             <Footer />
           </div>
