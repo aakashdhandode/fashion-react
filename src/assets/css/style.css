@@ -1026,3 +1026,36 @@ ul.breadcrumb li + li:before {
   font-size: 15px;
   font-weight: 400;
 }
+.my-orders table tr td {
+  color: #27231F;
+  font-weight: 500;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.my-orders .w-15{
+  width: 15%;
+}
+.my-orders table tr td p {
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.order-edit{
+  color: #A42A49;
+  font-weight: 500;
+  letter-spacing: normal;
+  /* text-align: end; */
+  float: right;
+}
+/* .my-orders table tr td {
+  color: #27231F;
+  font-weight: 500;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.w-95 {
+  width: 90%;
+}
+.pl-10 {
+  padding-left: 10px;
+} */

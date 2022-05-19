@@ -69,7 +69,7 @@ export default function Header() {
                         <Dropdown.Menu>
                             <ul>
                                 <li><Link to="/myaccount">My Account</Link></li>
-                                <li><Link to="/myorder">My Orders</Link></li>
+                                <li><Link to="/myorders">My Orders</Link></li>
                                 <li><Link to="/address">My Addresses</Link></li>
                                 <li><Link to="/">Logout</Link></li>
                             </ul>

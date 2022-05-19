@@ -65,10 +65,16 @@ function MyAccount() {
                     <Form.Label>
                       Email <span>*</span>
                     </Form.Label>
-                    <Form.Control type="email" placeholder="ruhulsharma@gmail.com" />
+                    <Form.Control
+                      type="email"
+                      placeholder="ruhulsharma@gmail.com"
+                    />
                   </Form.Group>
 
-                  <Form.Group className="col-sm-6" controlId="formBasicPassword">
+                  <Form.Group
+                    className="col-sm-6"
+                    controlId="formBasicPassword"
+                  >
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                   </Form.Group>
@@ -78,7 +84,7 @@ function MyAccount() {
                       type="submit"
                       className="btn-block btn-address-submit"
                     >
-                        Update
+                      Update
                     </button>
                   </Form.Group>
                 </Row>
