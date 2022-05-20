@@ -53,8 +53,6 @@ export const Footer = () => {
                            <ul className="widget-links">
                               <li><Link to="/about">About Us</Link></li>
                               <li><a href="/">FAQ</a></li>
-                              <li><a href="/">Location</a></li>
-                              <li><a href="/">Affiliates</a></li>
                               <li><a href="/">Contact</a></li>
                            </ul>
                         </div>

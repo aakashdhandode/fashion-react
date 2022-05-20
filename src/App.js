@@ -17,7 +17,7 @@ import WishList from "./view/WishList";
 class App extends Component {
   render() {
     return (
-        <Router basename="">  
+        <Router basename="fashion-app">  
           <div>
             <Header />
             <Switch>
