@@ -52,8 +52,10 @@ export const Footer = () => {
                            <h6 className="widget-title">Useful Links</h6>
                            <ul className="widget-links">
                               <li><Link to="/about">About Us</Link></li>
-                              <li><a href="/">FAQ</a></li>
                               <li><Link to="/contact">Contact</Link></li>
+                              <li><Link to="/terms-conditions">Terms and conditions</Link></li>
+                              <li><Link to="/privacy-policy">Privacy policy </Link></li>
+                              <li><Link to="/return-policy">Returns policy </Link></li>
                            </ul>
                         </div>
                      </Col>
@@ -61,11 +63,10 @@ export const Footer = () => {
                         <div className="widget">
                            <h6 className="widget-title">Category</h6>
                            <ul className="widget-links">
-                              <li><a href="/shop/grid-left-sidebar">Men</a></li>
-                              <li><a href="/shop/grid-left-sidebar">Woman</a></li>
-                              <li><a href="/shop/grid-left-sidebar">Kids</a></li>
-                              <li><a href="/shop/grid-left-sidebar">Best Seller</a></li>
-                              <li><a href="/shop/grid-left-sidebar">New Arrivals</a></li>
+                              <li><Link to="/products">Men</Link></li>
+                              <li><Link to="/products">Woman</Link></li>
+                              <li><Link to="/products">Kids</Link></li>
+                              <li><Link to="/products">New Arrivals</Link></li>
                            </ul>
                         </div>
                      </Col>
@@ -73,11 +74,10 @@ export const Footer = () => {
                         <div className="widget">
                            <h6 className="widget-title">My Account</h6>
                            <ul className="widget-links">
-                              <li><a href="/myaccount">My Account</a></li>
-                              <li><a href="/">Discount</a></li>
-                              <li><a href="/">Returns</a></li>
-                              <li><a href="/">Orders History</a></li>
-                              <li><a href="/">Order Tracking</a></li>
+                              <li><Link to="/myaccount">My Account</Link></li>
+                              <li><Link to="/myorders">My Orders</Link></li>
+                              <li><Link to="/myaddress">My Address</Link></li>
+                        
                            </ul>
                         </div>
                      </Col>
@@ -108,7 +108,7 @@ export const Footer = () => {
                   <div className="row">
                      <div className="col-md-6">
                         <p className="mb-3 mb-md-0 text-md-left">
-                           © Copyright 2022 Toolet , Design & develop by<a href="" target="_blank"> ODMS Pvt Ltd</a>
+                           © Copyright 2022 Fashion App , Design & develop by<a href="" target="_blank"> ODMS Pvt Ltd</a>
                         </p>
                      </div>
                      <div className="col-md-6">

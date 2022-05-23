@@ -13,6 +13,9 @@ import Details from "./view/Details";
 import Home from "./view/Home";
 import About from "./view/pages/About";
 import Contact from "./view/pages/Contact";
+import PrivacyPolicy from "./view/pages/PrivacyPolicy";
+import ReturnPolicy from "./view/pages/ReturnPolicy";
+import TermsConditions from "./view/pages/TermsConditions";
 import Products from "./view/Products";
 import WishList from "./view/WishList";
 class App extends Component {
@@ -35,6 +38,9 @@ class App extends Component {
 
               <Route exact path="/about"component ={About} />
               <Route exact path="/contact"component ={Contact} />
+              <Route exact path="/terms-conditions"component ={TermsConditions} />
+              <Route exact path="/privacy-policy"component ={PrivacyPolicy} />
+              <Route exact path="/return-policy"component ={ReturnPolicy} />
 
             </Switch>
             <Footer />
