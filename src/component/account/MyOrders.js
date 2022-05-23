@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, Table } from "react-bootstrap";
+import { Container, Col, Row, Table, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function MyOrders() {
@@ -39,11 +39,8 @@ function MyOrders() {
                   <tr>
                     <td className="w-15">
                       <Link to="/ordersummery">
-                        <img
-                          src="http://127.0.0.1:8000/images/products/3.png"
-                          className="img-responsive"
-                          alt="Irish Deer"
-                        />
+                      <Image src={require('../../assets/images/product-img/cat2.webp')} className="" alt="product image" />
+
                       </Link>
                     </td>
                     <td className="pl-10">
@@ -65,11 +62,7 @@ function MyOrders() {
                   <tr>
                     <td className="w-15">
                       <Link to="/ordersummery">
-                        <img
-                          src="http://127.0.0.1:8000/images/products/3.png"
-                          className="img-responsive"
-                          alt="Irish Deer"
-                        />
+                          <Image src={require('../../assets/images/product-img/cat1.webp')} className="" alt="product image" />
                       </Link>
                     </td>
                     <td className="pl-10">

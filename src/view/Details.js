@@ -155,7 +155,7 @@ function Details() {
                 </ul>
               </div>
               <div className="product-info-size">
-                <button className="btn-cart">
+                <button className="btn-cart-d">
                   <i className="fa fa-shopping-basket"></i> &nbsp; add to cart
                 </button>
                 <button className="btn-wishlist">
@@ -209,11 +209,7 @@ function Details() {
         <section>
           <div className="testimonial-card">
             <div className="user-thumb">
-              <img
-                src="http://127.0.0.1:8000/images/users/1.jpg"
-                className="img-responsive"
-                alt="Irish Deer"
-              />
+            <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"></img>
             </div>
             <div className="user-info">
               <h5>Sumaiya Karim</h5>
@@ -236,11 +232,9 @@ function Details() {
         <section>
           <div className="testimonial-card">
             <div className="user-thumb">
-              <img
-                src="http://127.0.0.1:8000/images/users/1.jpg"
-                className="img-responsive"
-                alt="Irish Deer"
-              />
+            {/* <Image src={require('../assets/images/product-img/cat1.webp')} className="" alt="product image" /> */}
+            <img src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png"></img>
+
             </div>
             <div className="user-info">
               <h5>Sumaiya Karim</h5>

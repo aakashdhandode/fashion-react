@@ -53,7 +53,7 @@ export const Footer = () => {
                            <ul className="widget-links">
                               <li><Link to="/about">About Us</Link></li>
                               <li><a href="/">FAQ</a></li>
-                              <li><a href="/">Contact</a></li>
+                              <li><Link to="/contact">Contact</Link></li>
                            </ul>
                         </div>
                      </Col>
@@ -73,7 +73,7 @@ export const Footer = () => {
                         <div className="widget">
                            <h6 className="widget-title">My Account</h6>
                            <ul className="widget-links">
-                              <li><a href="/other/my-account">My Account</a></li>
+                              <li><a href="/myaccount">My Account</a></li>
                               <li><a href="/">Discount</a></li>
                               <li><a href="/">Returns</a></li>
                               <li><a href="/">Orders History</a></li>

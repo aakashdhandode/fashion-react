@@ -12,6 +12,7 @@ import Header from "./component/header/Header";
 import Details from "./view/Details";
 import Home from "./view/Home";
 import About from "./view/pages/About";
+import Contact from "./view/pages/Contact";
 import Products from "./view/Products";
 import WishList from "./view/WishList";
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
               <Route exact path="/ordersummery"component ={OrderSummery} />
 
               <Route exact path="/about"component ={About} />
+              <Route exact path="/contact"component ={Contact} />
 
             </Switch>
             <Footer />
