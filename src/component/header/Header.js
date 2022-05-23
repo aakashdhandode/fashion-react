@@ -81,7 +81,7 @@ export default function Header() {
                               <Link to="/myaddress">My Addresses</Link>
                             </li>
                             <li>
-                              <Link to="/">Log Out &nbsp; &nbsp; &nbsp;</Link>
+                              <Link to="/">Log Out &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</Link>
                             </li>
                             <li>
                               <Link onClick={() => setLgShow(true)}>
